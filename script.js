@@ -1,8 +1,8 @@
 
 //* Задание 1
 
-let password = ('Пароль');
-let userPassword = (prompt ('Введите пароль'));
+let password = 'Пароль';
+let userPassword = prompt ('Введите пароль');
 
 if (password === userPassword) {
     console.log('Пароль введен верно');
@@ -18,7 +18,6 @@ if (c > 0 && c < 10) {
     console.log('Верно.');
 } else {
     console.log('Неверно.');
-
 }
 
 //* Задание 3
@@ -45,7 +44,7 @@ alert(a + b);
 
 //*Задание 5
 
-let monthNumber = String(prompt('Введите номер месяца в году'));
+let monthNumber = prompt('Введите номер месяца в году');
 
 switch (monthNumber) {
     case '12':
